@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>concatenation </title>
+</head>
+
+<body>
+    <a href="index1.html">Concatenation</a>
+    <a href="index2.html">Extract Emails</a>
+    <a href="index3.html">Return Number</a>
+
+
+    <script>
+        var fname = prompt("Please Enter your First name : ");
+        var lname = prompt("Please Enter your Last name");
+
+
+        function fullName(fistname, lastname) {
+
+            return fistname + " " + lastname;
+
+        };
+        fullName(fname, lname);
+        alert("Your Name is : " + fullName(fname, lname));
+        document.write("<h1>" + fullName(fname, lname) + " </h1>");
+        console.log(fname + " " + lname);
+
+    </script>
+</body>
+
+</html>
